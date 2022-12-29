@@ -1,0 +1,361 @@
+*{
+ padding: 0;
+ margin: 0;
+ box-sizing: border-box;
+ background-attachment: fixed;
+ width: auto;
+ height: auto;
+
+}
+
+.App{
+  padding: 3px;
+  width: 100%;
+   background-image: linear-gradient(#032546,#094764,#021e31);
+}
+
+.navabar{
+  width: 50%;
+  display: flex;
+  margin:2% 0% 3% 50%;
+}
+
+.navabar:hover{
+  opacity: 0.9;
+  color: #FFFFFF;
+}
+
+
+li{
+  list-style: none;
+}
+
+
+li a{
+  
+  text-decoration: none;
+}
+
+a{
+  padding-left: 5.2rem;
+  color: #FFFFFF;
+  font-size: 17px;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-weight: bold;
+}
+a:hover{
+  transition: 3s;
+  font-size: 18px;
+  color: #2885f0;
+}
+
+.rosi_me{
+  font-size: 23px;
+  color: #FFFFFF;
+  margin: 2em 25px -20px 20px;
+}
+
+
+.home_div{
+  display: flex;
+}
+
+
+.home_lestside{
+  margin: 2%;
+  width: 50%;
+  height: 70vh;
+  font-size: 22px;
+  background-image: linear-gradient(#03182d,#054665,#032841);
+  
+}
+
+.home_side{
+  margin: 2%;
+  padding: 5%;
+  width: 50%;
+  height: 70vh;
+  background-image: linear-gradient(#03182d,#054665,#032841);
+  color: #FFFFFF;
+}
+
+
+.dev_tab{
+  color: #f8f8f8;
+  font-size: 22px;
+}
+
+.my_photo1{
+  width: 100%;
+  height: 30vh;
+}
+
+.my_photo{
+  margin: 2px;
+  height: 68vh;
+  width: 55%;
+}
+
+.todos{
+  color: rgb(132, 235, 239);
+  font-size: 18px;
+  font-weight: 100;
+  font-family: serif;
+}
+
+
+
+.me_homepage{
+  padding: 10% 0.3% 0.4% 1%;
+  width: 43%;
+  height: 68vh;
+  margin: -71.9% 1px 10px 56%;
+}
+
+
+.head_side{
+  font-weight: bold;
+ font-size: 25px;
+ color: #d1d5d9;
+ margin-top:10%;
+  
+}
+
+.para_home{
+ color: #f8f8f8;
+  margin-top: 5rem;
+  font-size: 20px;
+  font-family: serif;
+
+}
+
+
+
+
+.para_home1{
+  padding: 50px;
+  font-family: serif;
+  font-size: 23px ;
+}
+
+
+.About{
+  max-width: 100%;
+  height: 110vh;
+}
+
+
+div.rosine{
+  display: flex;
+}
+
+
+.about_me{
+  height: 90vh;
+  width: 55%;
+  padding: 1% 0px 0px 20px;
+  background-image: linear-gradient(#062442,#06435f,#052439);
+  margin-top: 2%;
+  color:#fffafa;
+
+
+}
+
+
+
+.my_pc{
+  width: 45%;
+  height: 90vh;
+  background-image: linear-gradient(#062442,#06435f,#052439);
+  margin: 2%;
+  padding:1%;
+  color:#fffafa;
+}
+
+.my_pc:hover{
+  transform: scaleX(-1);
+  opacity: 0.8;
+
+}
+.description{
+  width: 50%;
+  margin-left: 30%;
+}
+
+
+.my_pc img{
+  height:100%;
+  object-fit: cover;
+ 
+}
+
+
+
+.school_name{
+  color: #46e98a;
+  font-size: 24px;
+}
+
+.contact{
+  background-color: cornflowerblue;
+  margin-top: 80%;
+  width: 100%;
+  height: 50vh;
+}
+
+.contact_side{
+  background-color: yellow;
+}
+
+
+
+
+
+
+.content{
+
+max-width: 100%;
+height: 100vh;
+}
+
+.skills{
+ padding: 20px;
+display: flex;
+margin-top: 10rem 1rem 0px 10px;
+
+}
+
+.skills_tabs{
+  background-image: linear-gradient(#03182d,#035074,#032841);
+  margin:1rem;
+  padding: 7rem;
+  max-width: 50%;
+  height: 77vh;
+}
+
+.head_skill{
+  margin: 10px  50px 20px 40% ;
+  color: #f8f8f8;
+  font-size: 25px;
+}
+
+
+.para_skill{
+  color: #f8f8f8;
+  font-size: 24px;
+  font-weight: 300;
+  font-family: Georgia, Times, 'Times New Roman';
+}
+
+.skills_icons{
+  background-image: linear-gradient(#03182d,#035074,#032841);
+  margin:1rem;
+  padding: 12rem;
+  max-width: 50%;
+  height: 77vh;
+  
+}
+
+.dev_icons{
+  display: flex;
+  padding: 20px;
+}
+
+
+.para_icons{
+  display: flex;
+  padding-top: 4rem;
+  font-size: 15px;
+  color: #FFFFFF;
+}
+
+
+.icon{
+  font-size: 100px;
+  color: #13e86c;
+}
+
+
+
+.para_skill_frame{
+  margin-left: 7rem;
+  color: #e9f906;
+  font-size: 200px;
+  font-weight: 300;
+  font-family: Georgia, Times, 'Times New Roman';
+}
+
+
+
+
+
+.section_footer{
+  margin: 20px;
+  padding: 7rem 4rem 2rem 60%;
+  max-width: 98%;
+  height: 50vh;
+  color: #000;
+  border-radius: 2%;
+  background-image: linear-gradient(#03182d,#035074,#032841);
+  
+}
+
+
+span{
+  padding: 7rem;
+  color: rgb(14, 206, 244);
+  font-size: 25px;
+
+}
+
+.footer_link_network{
+  padding-top: 30rem;
+  margin: 30px ;
+  font-size: 35px;
+  color: rgb(14, 206, 244);
+}
+
+.contacts{
+  padding: 4rem;
+  margin: -26% 20% -30% -70%  ;
+  max-width: 68%;
+  height: 40vh;
+}
+
+
+.para_contact{
+  color: #ebe6e6;
+  margin: 15px;
+  font-size: 22px;
+  font-weight: bold;
+}
+
+.contact_page{
+  color: rgb(14, 206, 244);
+  margin-left: 20px;
+  font-size: 30px;
+}
+
+
+
+.footer_cont{
+  font-size: 24px;
+  color: rgb(14, 206, 244);
+}
+
+
+
+.footer_description{
+  color: #fffafa;
+  max-width: 30rem;
+  height: 40vh;
+  margin: -20rem 0rem 0% -130vh;
+  padding: 1rem;
+  font-size: 23px;
+}
+
+.last_desc_footer{
+  color: rgb(19, 20, 21);
+  font-size: 20px;
+  margin-left: -35rem;
+}
